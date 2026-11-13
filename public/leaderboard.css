@@ -1,0 +1,23 @@
+.rankLink{background:#20172deb;color:#ffe5b7;border:1px solid #aa8a60;border-radius:5px;padding:8px 14px;font:bold 12px system-ui;min-height:40px}
+#worldBoard{box-sizing:border-box;width:min(94vw,440px);max-height:84dvh;overflow:auto;touch-action:pan-y;padding:18px;background:#21172d;color:#fff1d0;border:1px solid #d4af73;border-radius:10px;font:15px/1.4 system-ui}
+#worldBoard::backdrop{background:#110c19d9}
+#worldBoard header,#rankForm .entry{display:flex;align-items:center;justify-content:space-between;gap:6px}
+#worldBoard h2{font:bold italic 25px system-ui;margin:0;color:#ffcf65}
+#rankForm{margin:12px 0}
+#rankName{min-width:0;flex:1;padding:8px;background:#130e1d;color:white;border:1px solid #a68a68;border-radius:4px;font-size:16px}
+#worldBoard table{width:100%;border-collapse:collapse;text-align:left}
+#worldBoard td,#worldBoard th{padding:5px 3px;border-bottom:1px solid #645366;overflow-wrap:anywhere}
+#worldBoard td:last-child,#worldBoard th:last-child{text-align:right}
+.myRank{color:#ffcf65}
+#result{display:block;overflow-y:auto;touch-action:pan-y;padding:clamp(8px,3dvh,36px) 10px max(18px,env(safe-area-inset-bottom));overscroll-behavior:contain}
+#result img{display:block;margin:auto;max-height:21dvh}
+#result #summary{margin:8px 0}
+#result .rankResult{margin:8px auto;width:min(94%,340px);padding:9px 14px;background:#20172de8;border:1px solid #a58a63;border-radius:8px}
+#result .rankResult p{margin:3px 0}
+#result .rankResult p:empty{display:none}
+#rankForm{margin:4px auto 8px;text-align:left}
+#rankName{width:45%;user-select:text;-webkit-user-select:text}
+#worldBoard th:nth-child(n+3),#worldBoard td:nth-child(n+3){text-align:right}
+#myRank,#boardMe{color:#ffcf65;font-weight:750}
+#result .rankLink,#worldBoard .rankLink{min-height:44px}
+#result .mainButton{margin-top:4px}
